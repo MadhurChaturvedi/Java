@@ -11,8 +11,7 @@ public class class2 {
 
         int a = 257;
         byte k = (byte) a;
-        
-          
+  
 
     }
 }
