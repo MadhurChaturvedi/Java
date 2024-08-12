@@ -17,7 +17,7 @@ class demo {
         // }
 
         // multydimensinal Array
-        int arr[][] = new int[3][4];
+        int arr[][] = new int[3][4]; 
 
         // arr[1][1] = 5;
         // System.out.println(arr[1][1]);
