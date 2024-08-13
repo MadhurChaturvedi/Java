@@ -6,7 +6,7 @@ public class Demo {
         // String name = new String("Madhur"); but we can do like this string is
         // non-primitive is string class
         String name = "Madhur";
+        name = name + " Chaturvedi";
         System.out.println(name);
-
     }
 }
