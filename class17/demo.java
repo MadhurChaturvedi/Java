@@ -6,10 +6,21 @@ class Students {
     private int rollno;
     private String Name;
 
-    public Students() {
+    public Students() {  // default Constructor
         // System.out.println(" in Constructor!");
         rollno = 12;
         Name = "Jhon";
+    }
+
+    public Students(int rollno, String name) {
+        this.rollno = rollno;
+        Name = name;
+    }
+
+    public Students(int a) {
+        // System.out.println(" in Constructor!");
+        rollno = a;
+
     }
 
     public void setRollno(int rollno) {
@@ -24,10 +35,12 @@ class Students {
 public class demo {
     public static void main(String[] args) {
         Students obj = new Students();
-        Students obj1 = new Students();
+        Students obj1 = new Students(1);
         System.out.println(obj.getRollno());
 
         obj.setRollno(31);
-        // System.out.println(obj.getRollno());
+        obj1.setRollno(2);
+        System.out.println(obj.getRollno());
+        System.out.println(obj1.getRollno());
     }
 }
