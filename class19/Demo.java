@@ -12,6 +12,5 @@ class Demo {
         double r5 = obj.power(10, 2);
         // AdvCal
         System.out.println(r1 + " " + r2 + " " + r3 + " " + r4 + " " + r5);
-
     }
 }
