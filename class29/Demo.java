@@ -1,7 +1,7 @@
 package class29;
 
 abstract class Car {
-    // abstract
+    // abstract we
     public abstract void drive();
 
     public abstract void fly();
